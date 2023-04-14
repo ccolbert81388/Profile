@@ -1,0 +1,92 @@
+.works {
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    width: auto;
+    margin-right: 20%;
+}
+
+.prjct {
+    margin: 5px 5px 20px 5px;
+}
+
+.rcntwork {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.circleRed {
+    color: #F51112;
+}
+
+.rcntLiveBtn {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 8px 20px;
+    background-color: #F51112;
+    font-weight: 700;
+
+}
+
+.rcntLiveBtn:hover {
+    background-color: #d00909;
+
+}
+
+
+.prjctBtn {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 8px 20px;
+}
+
+.circleYellow {
+    color: #FCCB06;
+}
+
+.liveBtn {
+    background-color: #FCCB06;
+    color: rgb(49, 49, 49);
+    font-weight: 700;
+}
+
+.liveBtn:hover {
+    background-color: #deb206;
+}
+
+.codeBtn {
+    background-color: gainsboro;
+    color: rgb(101, 101, 101);
+}
+
+.codeBtn:hover {
+    background-color: rgb(172, 172, 172);
+    color: rgb(255, 255, 255);
+}
+
+.workBoard {
+    background-color: rgba(19, 19, 19, 0.459);
+    padding: 15px 30px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 640px) {
+    .works {
+        top: 10%;
+        left: 20%;
+        margin-right: 20px;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .works {
+        top: 10%;
+        left: 20%;
+        margin-right: 50px;
+        width: auto;
+    }
+}
